@@ -81,3 +81,11 @@ def merge_data(keys, data)
  end
  return keys
 end
+
+def find_cool(cool)
+  
+  
+  
+  
+  
+end
