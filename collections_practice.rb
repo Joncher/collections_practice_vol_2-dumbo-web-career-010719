@@ -96,8 +96,13 @@ end
 
 def organize_schools(schools)
   
-  
-  schools.map do |x,y|
+  hash = {}
+  arrayNYC = []
+  arrayCHI = []
+  arraySF = []
+  schools.map do |school,location|
+    if location[:location] == "NYC"
+      school
     binding.pry
   end
   
