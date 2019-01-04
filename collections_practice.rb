@@ -55,8 +55,9 @@ def count_elements(array)
  end
 list_of_names = ""
 array2.map do |name|
-  list_of_names.includname[:name] 
-  if :name
+  
+  if list_of_names.include?(name[:name]) 
+    name[:count] = 
 array3 = array2.uniq
 binding.pry
 
