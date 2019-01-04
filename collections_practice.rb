@@ -60,8 +60,8 @@ array2.map do |name|
   else list_of_names << name[:name]
   end
 end
-array2.delete()
-binding.pry
+array2.delete({:count=>1, :name=>"blake"})
+return array2
 
 
 
