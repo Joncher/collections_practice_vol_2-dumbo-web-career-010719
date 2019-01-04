@@ -88,4 +88,5 @@ def find_cool(cool)
     if info[:temperature] == "cool"
       return info
     end
+  end
 end
