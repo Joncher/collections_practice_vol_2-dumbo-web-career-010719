@@ -67,7 +67,7 @@ end
 def merge_data(keys, data)
  data.map do | info |
    binding.pry
-   if info.keys[0] == "blake"
+   info.keys[0] == "blake"
      keys[0][:awesomeness] = info["blake"][:awesomeness]
      keys[0][:height] = info["blake"][:height]
      keys[0][:last_name] = info["blake"][:last_name]
