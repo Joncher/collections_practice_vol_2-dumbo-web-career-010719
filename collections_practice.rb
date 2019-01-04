@@ -96,7 +96,10 @@ end
 
 def organize_schools(schools)
   
-  binding.pry
+  
+  schools.map do |x,y|
+    binding.pry
+  end
   
 end
 
