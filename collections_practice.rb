@@ -48,9 +48,9 @@ def count_elements(array)
   array2 = []
  array.each_with_index do |name , i|
    counts = {}
+   counts[:count] = 1
    counts[:name] = name[:name]
    
-   counts[:count] = 1
    array2[i] = counts
  end
 
