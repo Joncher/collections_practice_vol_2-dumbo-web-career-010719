@@ -65,7 +65,7 @@ return array2
 end
 
 def merge_data(keys, data)
- data.map do | info |
+ data.map do | info , stuff |
    if info.key == "blake"
      keys[0][:awesomeness] = info[:awesomeness]
      keys[0][:height] = info[:height]
