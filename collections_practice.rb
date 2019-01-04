@@ -57,8 +57,9 @@ list_of_names = ""
 array2.map do |name|
   
   if list_of_names.include?(name[:name]) 
-    name[:count] = 
-array3 = array2.uniq
+    name[:count] += 1
+  end
+end
 binding.pry
 
 
