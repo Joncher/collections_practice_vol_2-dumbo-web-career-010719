@@ -83,11 +83,11 @@ def merge_data(keys, data)
 end
 
 def find_cool(cool)
-  n = 0
+  hash = {}
   cool.map do |info|
     if info[:temperature] == "cool"
-      n = cool.find_index(info)
+      hash = info
     end
   end
-  return cool[n]
+  
 end
