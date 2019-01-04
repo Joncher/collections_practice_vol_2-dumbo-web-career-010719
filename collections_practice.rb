@@ -102,7 +102,8 @@ def organize_schools(schools)
   arraySF = []
   schools.map do |school,location|
     if location[:location] == "NYC"
-      school
+      arrayNYC << school
+    elsif location[:location] == "Chicago"
     binding.pry
   end
   
