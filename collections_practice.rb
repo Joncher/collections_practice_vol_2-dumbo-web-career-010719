@@ -89,5 +89,5 @@ def find_cool(cool)
       hash = info
     end
   end
-  
+  return hash
 end
