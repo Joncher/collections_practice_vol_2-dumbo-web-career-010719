@@ -66,6 +66,9 @@ end
 
 def merge_data(keys, data)
  data.map do | info |
+   if info.key == "blake"
+     
+   
    binding.pry
  end
  
