@@ -75,6 +75,6 @@ def merge_data(keys, data)
       keys[1][:height] = info["ashley"][:height]
       keys[1][:last_name] = info["ashley"][:last_name]
     end
-    return keys[0]
+    binding.pry
  end
 end
