@@ -104,8 +104,12 @@ def organize_schools(schools)
     if location[:location] == "NYC"
       arrayNYC << school
     elsif location[:location] == "Chicago"
-    binding.pry
+      arrayCHI << school
+    elsif location[:location] == "SF"
+      arraySF << school
+    end
   end
+  binding
   
 end
 
