@@ -112,6 +112,7 @@ def organize_schools(schools)
   hash["Chicago"] => arrayCHI
   hash["NYC"] => arrayNYC
   hash["SF"] => arraySF
+  return hash
 end
 
 
