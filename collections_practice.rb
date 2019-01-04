@@ -1,1 +1,65 @@
-# your code goes here
+require 'pry'
+def begins_with_r(array)
+  array2 = []
+  array.each do |a|
+    if a.start_with?("r") == true
+      array2 << 1
+    else array2.delete(a)
+    end
+  end
+  if array2.size == array.length
+    true
+  else false
+  end
+end
+
+def contain_a(array)
+  array2 = []
+  array.each do |word|
+    if word.include?("a") == true
+      array2 << word
+    end
+  end
+  array2
+end
+
+def first_wa(array)
+  array2 = []
+  array.each do |word|
+    word = word.to_s
+    if word.start_with?("wa") == true
+      return word
+    end
+  end
+end
+
+def remove_non_strings(array)
+  new_array = []
+  
+  array.each do |word|
+    if word == word.to_s
+      new_array << word
+    end
+  end
+  return new_array
+end
+
+def count_elements(array)
+  array2 = []
+ array.each_with_index do |name , i|
+   counts = {}
+   counts[:name] = name[:name]
+   
+   counts[:count] = 1
+   array2[i] = counts
+ end
+
+array3 = array2.uniq
+binding.pry
+
+
+
+ 
+ 
+ 
+ end
