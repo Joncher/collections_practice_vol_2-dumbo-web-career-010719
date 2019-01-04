@@ -70,10 +70,12 @@ def merge_data(keys, data)
      keys[0][:awesomeness] = info[:awesomeness]
      keys[0][:height] = info[:height]
      keys[0][:last_name] = info[:last_name]
+     binding.pry
      elsif info.key == "ashley"
       keys[1][:awesomeness] = info[:awesomeness]
       keys[1][:height] = info[:height]
       keys[1][:last_name] = info[:last_name]
+      binding.pry
     end
  end
 end
