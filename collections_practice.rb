@@ -93,3 +93,13 @@ def find_cool(cool)
   array << hash
   return array
 end
+
+def organize_schools(schools)
+  
+  
+  
+end
+
+
+
+
