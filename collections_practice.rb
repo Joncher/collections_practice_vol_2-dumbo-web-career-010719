@@ -109,9 +109,9 @@ def organize_schools(schools)
       arraySF << school
     end
   end
-  hash["Chicago"] => arrayCHI
-  hash["NYC"] => arrayNYC
-  hash["SF"] => arraySF
+  hash["Chicago"] = arrayCHI
+  hash["NYC"] = arrayNYC
+  hash["SF"] = arraySF
   return hash
 end
 
