@@ -58,14 +58,11 @@ array2.map do |name|
   if list_of_names.include?(name[:name]) 
     name[:count] += 1
   else list_of_names << name[:name]
+    end
   end
-end
 array2.delete({:count=>1, :name=>"blake"})
 return array2
+end
 
-
-
+def merge_data(keys, data)
  
- 
- 
- end
