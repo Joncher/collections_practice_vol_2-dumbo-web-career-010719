@@ -78,6 +78,6 @@ def merge_data(keys, data)
       keys[1][:last_name] = info["ashley"][:last_name]
   
     
- end
+ 
  return keys
 end
