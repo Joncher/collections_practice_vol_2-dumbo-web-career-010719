@@ -109,7 +109,7 @@ def organize_schools(schools)
       arraySF << school
     end
   end
-  binding.pry
+
   
 end
 
