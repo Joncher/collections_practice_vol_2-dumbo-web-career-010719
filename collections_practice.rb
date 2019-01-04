@@ -85,7 +85,7 @@ end
 def find_cool(cool)
   
   cool.map do |info|
-    if info[:temperature] != "cool"
+    cool.deleteif info[:temperature] != "cool"
       return cool[]
   end
 end
