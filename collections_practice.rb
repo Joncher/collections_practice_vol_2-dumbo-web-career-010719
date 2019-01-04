@@ -87,7 +87,8 @@ def find_cool(cool)
   array = [hash]
   cool.map do |info|
     if info[:temperature] == "cool"
-      hash << info
+      hash[:name] = info[:name]
+      hash[:temperature] = info[:temperature]
     end
   end
 end
