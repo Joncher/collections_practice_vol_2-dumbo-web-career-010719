@@ -85,8 +85,8 @@ end
 def find_cool(cool)
   
   cool.map do |info|
-    info.keep_if do info[:temperature] == "cool" end
-    
+    if info[:temperature] == "cool"
+      return info
 end
 
 end
