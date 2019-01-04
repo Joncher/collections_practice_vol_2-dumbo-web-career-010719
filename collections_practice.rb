@@ -55,7 +55,7 @@ def count_elements(array)
  end
 list_of_names = ""
 array2.map do |name|
-  
+  binding.pry
   if list_of_names.include?(name[:name]) 
     name[:count] += 1
     binding.pry
