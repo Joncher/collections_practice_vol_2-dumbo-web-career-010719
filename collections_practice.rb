@@ -58,6 +58,7 @@ array2.map do |name|
   
   if list_of_names.include?(name[:name]) 
     name[:count] += 1
+    binding.pry
   end
 end
 binding.pry
