@@ -86,7 +86,7 @@ def find_cool(cool)
   
   cool.map do |info|
     
-  
+  binding.pry
 end
   
 end
