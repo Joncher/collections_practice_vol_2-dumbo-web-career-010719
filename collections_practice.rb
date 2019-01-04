@@ -84,7 +84,7 @@ end
 
 def find_cool(cool)
   
-  
+  binding.pry
   
   
   
